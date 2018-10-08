@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-      <heading class="mb-6">Laravel Nova Configuration</heading>
+      <heading class="mb-6">Configurações</heading>
       <div class="flex justify-between">
           <div class="relative h-9 mb-6">
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" aria-labelledby="search" role="presentation" class="fill-current absolute search-icon-center ml-3 text-70"><path fill-rule="nonzero" d="M14.32 12.906l5.387 5.387a1 1 0 0 1-1.414 1.414l-5.387-5.387a8 8 0 1 1 1.414-1.414zM8 14A6 6 0 1 0 8 2a6 6 0 0 0 0 12z"></path></svg>
@@ -8,7 +8,7 @@
           </div>
           <span class="ml-auto mb-6">
               <button class="btn btn-default btn-primary" dusk="create-button" @click="createConfiguration">
-                    Create Configuration
+                    Criar Configuração
               </button>
           </span>
       </div>
@@ -27,12 +27,12 @@
                       </th>
                       <th class="text-left">
                           <span dusk="sort-name" class="cursor-pointer inline-flex items-center">
-                            KEY
+                            NOME
                           </span>
                       </th>
                       <th class="text-left">
                           <span dusk="sort-email" class="cursor-pointer inline-flex items-center">
-                            VALUE
+                            VALOR
                           </span>
                       </th>
                       <th>&nbsp;</th>
